@@ -1,0 +1,7 @@
+.claude/
+*.wav
+*.mp4
+.idea/
+_work/hf_cache/
+**/__pycache__/
+*.pyc
