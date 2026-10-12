@@ -1,0 +1,17 @@
+model loaded in 20.1s
+Traceback (most recent call last):
+  File "D:\vid_to_audio\_work\test_batched.py", line 10, in <module>
+    segments, info = batched_model.transcribe(
+                     ~~~~~~~~~~~~~~~~~~~~~~~~^
+        "D:/vid_to_audio/_work/audio/20260928_100728.wav",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        condition_on_previous_text=False,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\vid_to_audio\_work\venv\Lib\site-packages\faster_whisper\transcribe.py", line 416, in transcribe
+    raise RuntimeError(
+    ...<2 lines>...
+    )
+RuntimeError: No clip timestamps found. Set 'vad_filter' to True or provide 'clip_timestamps'.

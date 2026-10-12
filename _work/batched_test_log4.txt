@@ -1,0 +1,4 @@
+model loaded in 12.0s
+transcribed clip in 672.7s
+lang: bn 1
+wrote transcript

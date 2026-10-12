@@ -1,0 +1,3 @@
+model loaded in 18.4s
+transcribed clip in 2022.0s
+wrote transcript

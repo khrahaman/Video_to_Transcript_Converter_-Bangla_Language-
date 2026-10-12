@@ -1,0 +1,2 @@
+model loaded in 17.9s
+transcribed 161s clip in 1203.9s

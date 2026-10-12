@@ -1,0 +1,19 @@
+model loaded in 22.3s
+Traceback (most recent call last):
+  File "D:\vid_to_audio\_work\test_gpu.py", line 28, in <module>
+    for seg in segments:
+               ^^^^^^^^
+  File "D:\vid_to_audio\_work\venv\Lib\site-packages\faster_whisper\transcribe.py", line 1213, in generate_segments
+    ) = self.generate_with_fallback(encoder_output, prompt, tokenizer, options)
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\vid_to_audio\_work\venv\Lib\site-packages\faster_whisper\transcribe.py", line 1446, in generate_with_fallback
+    result = self.model.generate(
+             ~~~~~~~~~~~~~~~~~~~^
+        encoder_output,
+        ^^^^^^^^^^^^^^^
+    ...<10 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )[0]
+    ^
+RuntimeError: CUDA failed with error out of memory
