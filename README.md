@@ -15,7 +15,6 @@ An offline pipeline that turns long Bangla meeting recordings into timestamped t
 - [Script reference](#script-reference)
 - [Model experiments and benchmarks](#model-experiments-and-benchmarks)
 - [Full run results](#full-run-results)
-- [Outputs](#outputs)
 - [Accuracy and limitations](#accuracy-and-limitations)
 - [Troubleshooting](#troubleshooting)
 
@@ -256,13 +255,6 @@ Final run with `large-v3` and batched CPU inference:
 | | **Total** | | **3 h 25 min** | **About 13 h 5 min** | **3.8×** |
 
 Titles are descriptive labels inferred from the content, not official session titles.
-
-## Outputs
-
-| File | Content |
-|---|---|
-| [`Combined_Transcripts_Bangla_English.pdf`](_work/output/Combined_Transcripts_Bangla_English.pdf) | Cleaned Bangla transcript and English rendering of every recording |
-| [`Speech_Summaries_Bangla_English.pdf`](_work/output/Speech_Summaries_Bangla_English.pdf) | A short summary of every recording in both languages |
 
 ## Accuracy and limitations
 
