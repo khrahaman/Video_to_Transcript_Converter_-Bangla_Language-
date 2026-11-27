@@ -9,7 +9,7 @@ An offline pipeline that turns long Bangla meeting recordings into timestamped t
 - [What was done](#what-was-done)
 - [Pipeline](#pipeline)
 - [Repository structure](#repository-structure)
-- [Requirements](#requirements)
+- [Disk space](#disk-space)
 - [Setup](#setup)
 - [Usage](#usage)
 - [Script reference](#script-reference)
@@ -75,30 +75,7 @@ flowchart LR
     └── venv/                    # Python virtual environment (not committed)
 ```
 
-## Requirements
-
-### Software
-
-| Component | Version used |
-|---|---|
-| Windows | 11 |
-| Python | 3.13.2 |
-| FFmpeg | 9.0.2 |
-| faster-whisper | 1.2.1 |
-| CTranslate2 | 4.8.2 |
-| ReportLab | 5.0.1 |
-
-For GPU experiments only: `nvidia-cublas-cu12` 12.9.2.10 and `nvidia-cudnn-cu12` 9.26.0.51.
-
-### Hardware used
-
-| Part | Specification |
-|---|---|
-| CPU | AMD Ryzen 5 3500U |
-| RAM | About 14 GB usable |
-| GPU | NVIDIA GeForce GTX 1050, 4 GB VRAM |
-
-### Disk space
+## Disk space
 
 | Item | Size |
 |---|---|
