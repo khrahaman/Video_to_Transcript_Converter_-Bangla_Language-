@@ -281,6 +281,5 @@ Possible improvements: cleaner source audio (an external or lapel microphone), a
 ## Data, fonts and licensing
 
 - Source videos and extracted audio are excluded from Git by `.gitignore`.
-- The transcripts and reports come from a real meeting. Make sure you have permission to share this content.
 - Nirmala is a Microsoft font supplied with Windows. Its licence is separate from this project; check the terms before redistributing the font files.
 - No licence file is currently included for the code.
